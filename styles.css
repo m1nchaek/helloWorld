@@ -1,0 +1,86 @@
+h1{ 
+    font-family: "gajraj-one", sans-serif; 
+    line-height:  60px; 
+    position:fixed; 
+    bottom: 0;
+    margin: 40px; 
+    font-size: 100px;
+}
+
+.U{
+    color: #F04B4B;
+    z-index: 10;
+    bottom: 68%;
+    left: 8%;
+    transform: rotate(90deg);
+}
+
+.K{
+    color: #F04B4B;
+    z-index: 10;
+    left: -2%;
+    top:1%;
+    transform:rotate(90deg);
+}
+
+img{ 
+    position:absolute;
+    left: 25px;
+}
+
+h2{ 
+    font-family: "Young Serif";
+    display: flex; 
+    justify-content: flex-end;
+    margin:40px 40px 0 0; 
+    font-size: 40px; 
+}
+
+p{ 
+    font-family: "Young Serif";
+    line-height:15px;
+    position: absolute;
+}
+
+.container{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    width: 350px; 
+    height: 350px;
+    border-radius: 50%; 
+    background-color: #F04B4B ;
+    z-index: 10;
+    right: 40px;
+    top: 380px;
+    
+}
+
+.O{
+    position: absolute;
+    background-color: #F04B4B ;
+    width: 4px;
+    height: 500px;
+    left: 500px;
+    bottom:500px;
+}
+
+.P{
+    position: absolute;
+    background-color: #F04B4B ;
+    width: 4px;
+    height: 741px; 
+    left: 350px;
+}
+
+.one{ 
+        top: 830px;
+        left:540px;
+        position:fixed;
+
+
+}
+.two{ color: lightblue;
+
+}
