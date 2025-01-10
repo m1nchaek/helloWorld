@@ -13,6 +13,7 @@ h1{
     bottom: 68%;
     left: 8%;
     transform: rotate(90deg);
+    position:fixed;
 }
 
 .K{
@@ -21,6 +22,7 @@ h1{
     left: -2%;
     top:1%;
     transform:rotate(90deg);
+    position:fixed;
 }
 
 img{ 
@@ -47,14 +49,25 @@ p{
 }
 .circle{
     position: absolute;
-    width: 350px; 
-    height: 350px;
+    width: 200px; 
+    height: 200px;
     border-radius: 50%; 
     background-color: #F04B4B ;
     z-index: 10;
-    right: 40px;
-    top: 380px;
-    
+    right: 220px;
+    top: 550px;  
+}
+
+.outline-circle{ 
+    position: absolute;
+    background-color: transparent ;
+    z-index: 10;
+    right: 250px;
+    top: 400px;
+    width: 300px; 
+    height: 300px;
+    border: 3px solid #F04B4B;
+    border-radius: 50%; 
 }
 
 .O{
@@ -74,13 +87,70 @@ p{
     left: 350px;
 }
 
+.A {
+    position: absolute;
+    bottom: 30px;      
+    left: 0;        
+    width: 100%;   
+    height: 5px;     
+    background-color: #3498db; 
+}
+
+.R{
+    position: absolute;
+    bottom: 30px;      
+    left: 500px;        
+    width: 100px;   
+    height: 5px;     
+    background-color: #3498db;
+    transform:rotate(90deg);
+}
+
+
+.L{
+    position: absolute;
+    top: 65px;      
+    left: 500px;        
+    width: 1110px;   
+    height: 5px;     
+    background-color: #3498db;
+}
+
 .one{ 
         top: 830px;
-        left:540px;
-        position:fixed;
-
-
+        left:560px;
+        position:absolute;
 }
-.two{ color: lightblue;
 
+.two{
+    position:absolute; 
+    z-index: 15;
+    left:1285px;
+    top: 640px;}
+
+.third{ 
+    position:absolute; 
+    z-index: 15;
+    left:1370px;
+    top: 640px;
+    color: white; 
+    font-size: 25px;
+    }
+
+.fourth{ 
+    position:absolute; 
+    z-index: 15;
+    left:1380px;
+    top: 670px;
+    color: white; 
+    font-size: 18px;
+}
+
+
+.fifth{ 
+    position:absolute; 
+    z-index: 15;
+    left:1550px;
+    top: 660px;
+    font-size: 25px;
 }
