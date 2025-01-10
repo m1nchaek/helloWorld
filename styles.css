@@ -93,7 +93,7 @@ p{
     left: 0;        
     width: 100%;   
     height: 5px;     
-    background-color: #3498db; 
+    background-color: #F04B4B; 
 }
 
 .R{
@@ -102,7 +102,7 @@ p{
     left: 500px;        
     width: 100px;   
     height: 5px;     
-    background-color: #3498db;
+    background-color: #F04B4B;
     transform:rotate(90deg);
 }
 
@@ -113,7 +113,7 @@ p{
     left: 500px;        
     width: 1110px;   
     height: 5px;     
-    background-color: #3498db;
+    background-color: #F04B4B;
 }
 
 .one{ 
@@ -125,14 +125,14 @@ p{
 .two{
     position:absolute; 
     z-index: 15;
-    left:1285px;
+    left:1270px;
     top: 640px;}
 
 .third{ 
     position:absolute; 
     z-index: 15;
-    left:1370px;
-    top: 640px;
+    left:1350px;
+    top: 630px;
     color: white; 
     font-size: 25px;
     }
@@ -140,8 +140,8 @@ p{
 .fourth{ 
     position:absolute; 
     z-index: 15;
-    left:1380px;
-    top: 670px;
+    left:1365px;
+    top: 660px;
     color: white; 
     font-size: 18px;
 }
@@ -150,7 +150,7 @@ p{
 .fifth{ 
     position:absolute; 
     z-index: 15;
-    left:1550px;
+    left:1535px;
     top: 660px;
     font-size: 25px;
 }
