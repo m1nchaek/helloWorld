@@ -135,14 +135,14 @@ p{
 .two{
     position:absolute; 
     z-index: 15;
-    left:1270px;
-    top: 640px;}
+    left:1280px;
+    top: 635px;}
 
 .third{ 
     position:absolute; 
     z-index: 15;
-    left:1350px;
-    top: 630px;
+    left:1360px;
+    top: 625px;
     color: white; 
     font-size: 25px;
     }
@@ -150,7 +150,7 @@ p{
 .fourth{ 
     position:absolute; 
     z-index: 15;
-    left:1365px;
+    left:1380px;
     top: 660px;
     color: white; 
     font-size: 18px;
@@ -160,7 +160,7 @@ p{
 .fifth{ 
     position:absolute; 
     z-index: 15;
-    left:1535px;
+    left:1550px;
     top: 660px;
     font-size: 25px;
 }
