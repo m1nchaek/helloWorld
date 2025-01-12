@@ -8,7 +8,7 @@ h1{
 }
 
 .U{
-    color: #F04B4B;
+    color:  #000;
     z-index: 10;
     bottom: 68%;
     left: 8%;
@@ -17,7 +17,7 @@ h1{
 }
 
 .K{
-    color: #F04B4B;
+    color:  #000;
     z-index: 10;
     left: -2%;
     top:1%;
@@ -40,7 +40,7 @@ h2{
 
 p{ 
     font-family: "Young Serif";
-    line-height:15px;
+    line-height:22px;
     position: absolute;
 }
 
@@ -52,7 +52,7 @@ p{
     width: 200px; 
     height: 200px;
     border-radius: 50%; 
-    background-color: #F04B4B ;
+    background-color: #000 ;
     z-index: 10;
     right: 220px;
     top: 550px;  
@@ -66,13 +66,13 @@ p{
     top: 400px;
     width: 300px; 
     height: 300px;
-    border: 3px solid #F04B4B;
+    border: 3px solid #000;
     border-radius: 50%; 
 }
 
 .O{
     position: absolute;
-    background-color: #F04B4B ;
+    background-color:  #000;
     width: 4px;
     height: 500px;
     left: 500px;
@@ -81,7 +81,7 @@ p{
 
 .P{
     position: absolute;
-    background-color: #F04B4B ;
+    background-color: #000 ;
     width: 4px;
     height: 741px; 
     left: 350px;
@@ -93,7 +93,7 @@ p{
     left: 0;        
     width: 100%;   
     height: 5px;     
-    background-color: #F04B4B; 
+    background-color: #000; 
 }
 
 .R{
@@ -102,10 +102,19 @@ p{
     left: 500px;        
     width: 100px;   
     height: 5px;     
-    background-color: #F04B4B;
+    background-color: #000;
     transform:rotate(90deg);
 }
 
+.M{ 
+    position: absolute;
+    bottom: 488px;      
+    left: 260px;        
+    width: 750px;   
+    height: 5px;     
+    background-color: #000;
+    transform:rotate(90deg);
+}
 
 .L{
     position: absolute;
@@ -113,13 +122,14 @@ p{
     left: 500px;        
     width: 1110px;   
     height: 5px;     
-    background-color: #F04B4B;
+    background-color: #000;
 }
 
 .one{ 
-        top: 830px;
+        top: 800px;
         left:560px;
         position:absolute;
+        font-size: 22px;
 }
 
 .two{
